@@ -1,0 +1,88 @@
+{
+	"error_code": 0,
+	"result": "ok",
+	"data": [{
+		"type": "video",
+		"position": "p1",
+		"data": {
+			"href": "http:\/\/www.qyer.com\/video\/qiyu\/154?campaign=pctoday&category=qiyushengdan",
+			"video": "https:\/\/media.qyer.com\/qiyu\/2018\/03\/7260\/2560\/65ac\/d944\/958e\/d606\/9822\/f222",
+			"pic": "https:\/\/pic.qyer.com\/qiyu\/2018\/03\/11af\/abc1\/7e28\/47f2\/d51b\/9534\/8a2b\/be19",
+			"subject": "圣诞市集—全民的狂欢，手工艺人的乐园",
+			"desc": "奇遇视频",
+			"tag": "维也纳"
+		}
+	}, {
+		"type": "lm",
+		"position": "p2",
+		"data": {
+			"id": "123320",
+			"subject": "[暑期] 长沙直飞澳大利亚多地8-10天往返含税机票（8-9月超值爆款，可配全国多地联运）",
+			"pic": "https:\/\/pic.qyer.com\/Fo9x5TCP5hhDH9zWSE7qhEawb99j\/275x185",
+			"href": "http:\/\/z.qyer.com\/deal\/123320\/",
+			"price": "<em>1999<\/em>元起",
+			"start_pos": "长沙"
+		}
+	}, {
+		"type": "bbs",
+		"position": "p3",
+		"data": {
+			"id": "2985341",
+			"subject": "初恋巴尔干（西巴尔干五国非自驾行摄之旅\/斯洛文尼亚-塞尔维亚-波黑-黑山-克罗地亚）",
+			"pic": "https:\/\/pic.qyer.com\/album\/user\/2832\/79\/Q0FWQB0OZUk\/index\/275x185",
+			"username": "sarixuan",
+			"href": "http:\/\/bbs.qyer.com\/thread-2985341-1.html",
+			"views": 20196,
+			"type": "游记"
+		}
+	}, {
+		"position": "p4",
+		"type": "login"
+	}, {
+		"type": "lm",
+		"position": "p5",
+		"data": {
+			"id": "53382",
+			"subject": "【爆款！高迪经典】西班牙巴塞罗那圣家堂门票 (登塔可选)",
+			"pic": "http:\/\/pic.qyer.com\/public\/supplier\/jd\/2015\/09\/07\/14415986729925\/275x185",
+			"href": "http:\/\/z.qyer.com\/deal\/53382\/",
+			"price": "<em>136<\/em>元起",
+			"start_pos": "巴塞罗那"
+		}
+	}, {
+		"type": "mguide",
+		"position": "p6",
+		"data": {
+			"id": "86",
+			"subject": "在费城了解美国历史",
+			"pic": "https:\/\/pic1.qyer.com\/album\/user\/462\/46\/RU9XRhwDZA\/index\/275x185",
+			"username": "你猜猜这是啥",
+			"href": "http:\/\/place.qyer.com\/mguide\/86",
+			"item_count": "6"
+		}
+	}, {
+		"type": "bbs",
+		"position": "p7",
+		"data": {
+			"id": "2983265",
+			"subject": "[CR看风景]南极-罗斯海探险旅行记  独一无二·近距离帝企鹅\/虎鲸群\/信天翁\/历史小屋...（附120分钟原创影片）",
+			"pic": "https:\/\/pic1.qyer.com\/album\/user\/2830\/75\/Q0FWQh0CaEk\/index\/275x185",
+			"username": "hmshhv_CR",
+			"href": "http:\/\/bbs.qyer.com\/thread-2983265-1.html",
+			"views": 9751,
+			"type": "游记"
+		}
+	}, {
+		"type": "bbs",
+		"position": "p8",
+		"data": {
+			"id": "2982589",
+			"subject": "【绰约丰姿碧叶长·兰花狮国尽芬芳】（6日5夜行程·3万余字·200余皂片带你领略最美新加坡）",
+			"pic": "https:\/\/pic.qyer.com\/album\/user\/2826\/1\/Q0FXRBoGYko\/index\/275x185",
+			"username": "amon85",
+			"href": "http:\/\/bbs.qyer.com\/thread-2982589-1.html",
+			"views": 10683,
+			"type": "游记"
+		}
+	}]
+}
