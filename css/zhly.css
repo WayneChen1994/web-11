@@ -1,0 +1,738 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+
+ul,li{
+        list-style: none;
+}
+
+.box{
+        width: 1133px;
+        height: 4270px;
+        margin: 0 auto;
+        background: white;
+        padding-top: 10px;
+        position: relative;
+}
+
+#logo{
+        display: block;
+        width: 150px;
+        height: 65px;
+        position: absolute;
+        left: 70px;
+        top: 5px;
+        z-index: 999;
+}
+
+.nav{
+        height: 60px;
+        background: dodgerblue;
+        padding-left: 220px;
+        position: relative;
+}
+
+.nav .navbar{
+        width: 600px;
+        height: 100%;
+        float: left;
+}
+
+.nav .navbar li{
+        float: left;
+        margin: 0 10px;
+}
+
+.nav .navbar li:nth-child(4){
+        margin: 0 30px;
+}
+
+.nav .navbar li a{
+        text-decoration: none;
+        color: white;
+        line-height: 60px;
+        font-size: 18px;
+}
+
+.nav .navbar li a:hover{
+        font-weight: bolder;
+}
+
+.nav form{
+        float: right;
+        width: 255px;
+        height: 32px;
+        background: white;
+        position: absolute;
+        right: 65px;
+        top: 15px;
+}
+
+.nav form input[type="text"]{
+        display: block;
+        width: 220px;
+        height: 30px;
+        float: left;
+        background: none;
+        border: none;
+        outline: none;
+}
+
+.nav form input[type="submit"]{
+        display: block;
+        width: 30px;
+        height: 30px;
+        float: right;
+        border: none;
+        background: url("../img/zhly/search.png") no-repeat center center;
+        background-size: cover;
+}
+
+.big{
+        width: 100%;
+        height: 445px;
+        background: white;
+        padding-top: 15px;
+        position: relative;
+}
+
+.big img{
+        display: block;
+        margin: 0 auto;
+}
+
+.big p{
+        width: 975px;
+        height: 90px;
+        background: black;
+        opacity: 0.7;
+        font-size: 18px;
+        color: white;
+        position: absolute;
+        bottom: 15px;
+        left: 67px;
+        line-height: 80px;
+        padding-left: 25px;
+}
+
+.content{
+        width: 100%;
+        height: 1000px;
+}
+
+.content .con-left{
+        width: 660px;
+        margin-left: 66px;
+        float: left;
+}
+
+.content .con-right{
+        width: 300px;
+        height: 900px;
+        margin-right: 66px;
+        float: right;
+}
+
+.titlebox{
+        width: 100%;
+        height: 30px;
+        border-bottom: 1px solid gray;
+}
+
+.tb1{
+        background: url("../img/zhly/css_sprites.png") no-repeat bottom -60px left;
+}
+
+.postbox{
+        width: 100%;
+        height: 200px;
+        border-bottom: 2px dotted gray;
+        position: relative;
+}
+
+.postbox img{
+        display: block;
+        width: 200px;
+        height: 150px;
+        position: absolute;
+        top: 25px;
+        left: 20px;
+}
+
+.postbox .post{
+        width: 400px;
+        height: 150px;
+        position: absolute;
+        top: 25px;
+        right: 20px;
+        text-align: left;
+}
+
+.postbox .post a{
+        display: block;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+        color: royalblue;
+        margin-top: 15px;
+        margin-bottom: 20px;
+}
+
+.postbox .post .postp1 {
+        text-align: left;
+        font-size: 12px;
+        text-indent: 2em;
+        margin-bottom: 20px;
+}
+
+.postbox .post .postp2{
+        font-size: 12px;
+        text-align: left;
+        color: orange;
+        padding-top: 10px;
+}
+
+.post .postp2 span{
+        color: black;
+        float: right;
+}
+
+.con-right .wlmy{
+        width: 100%;
+        height: 470px;
+        position: relative;
+}
+
+.tb2{
+        background: url("../img/zhly/css_sprites.png") no-repeat  bottom -25px left;
+        margin-bottom: 15px;
+}
+
+.wlmy img{
+        display: block;
+        width: 300px;
+        height: 180px;
+}
+
+.wlmy p{
+        width: 300px;
+        height: 30px;
+        background: rgba(0,0,0,0.5);
+        color: white;
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center;
+        position: absolute;
+        top: 196px;
+}
+
+.wlmy ul{
+        height: 230px;
+        margin: 7px auto;
+        padding-left: 12px;
+}
+
+.wlmy ul li{
+        margin-bottom: 10px;
+        list-style: disc;
+        list-style-position: inside;
+}
+
+.wlmy ul li a{
+        text-decoration: none;
+        font-size: 14px;
+        color: black;
+}
+
+.wlmy ul li a:hover{
+        color: blue;
+}
+
+.sj{
+        width: 300px;
+        height: 380px;
+}
+
+.sj .tb3{
+        background: url("../img/zhly/tr-title3.png") no-repeat left center;
+}
+
+.sj img{
+        display: block;
+        width: 300px;
+        height: 300px;
+        margin-top: 15px;
+}
+
+.bzbk{
+        width: 300px;
+        height: 250px;
+        background: white;
+        position: relative;
+}
+
+.bzbk .tb4{
+        background: url("../img/zhly/css_sprites.png") no-repeat left bottom 5px;
+        margin-bottom: 15px;
+}
+
+.bzbk img{
+        display: block;
+        width: 300px;
+        height: 180px;
+}
+
+.bzbk p{
+        width: 290px;
+        height: 30px;
+        background: rgba(0,0,0,0.5);
+        color: white;
+        position: absolute;
+        top: 196px;
+        line-height: 30px;
+        font-size: 14px;
+        padding-left: 10px;
+}
+
+.tb5{
+        background: url("../img/zhly/css_sprites.png") no-repeat left -100px top -100px;
+        margin-bottom: 15px;
+}
+
+.tb6{
+        background: url("../img/zhly/css_sprites.png") no-repeat left -100px top -70px;
+        margin-bottom: 15px;
+}
+
+.jczt{
+        width: 300px;
+        height: 260px;
+}
+
+.tb7{
+        background: url("../img/zhly/css_sprites.png") no-repeat left -100px top -130px;
+        margin-bottom: 15px;
+}
+
+.jczt .twopic{
+        width: 300px;
+        height: 200px;
+}
+
+.jczt .twopic .left,.jczt .twopic .right{
+        width: 145px;
+        height: 200px;
+        text-align: center;
+}
+
+.twopic .left{
+        float: left;
+}
+
+.twopic .right{
+        float: right;
+}
+
+.twopic a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+}
+
+.twopic a:hover{
+        color: blue;
+}
+
+.tbch{
+        width: 300px;
+        height: 370px;
+}
+
+.tb8{
+        background: url("../img/zhly/css_sprites.png") no-repeat left bottom -90px;
+        margin-bottom: 15px;
+}
+
+.tbch ul{
+        width: 300px;
+        height: 95px;
+        margin-top: 15px;
+}
+
+.tbch ul li{
+        float: left;
+}
+
+.tbch ul li:last-child{
+        float: right;
+}
+
+.tbch ul li:nth-child(2){
+        margin-left: 9px;
+}
+
+.tbch ul li img{
+        display: block;
+}
+
+.hydt{
+        width: 300px;
+        height: 390px;
+}
+
+.tb9{
+        background: url("../img/zhly/css_sprites.png") no-repeat top -190px left -100px ;
+        margin-bottom: 20px;
+}
+
+.tb9 a{
+        text-decoration: none;
+        font-size: 12px;
+        color: gray;
+        float: right;
+        line-height: 30px;
+        margin-right: 10px;
+}
+
+.hydt ul{
+        width: 300px;
+        height: 330px;
+        padding-left: 20px;
+}
+
+.hydt ul li{
+        list-style: disc;
+        margin-bottom: 22px;
+}
+
+.hydt ul li a{
+        text-decoration: none;
+        font-size: 14px;
+        color: black;
+}
+
+.hydt ul li a:hover,.tb9 a:hover{
+        color: blue;
+}
+
+.morebox{
+        width: 100%;
+        height: 70px;
+        position: relative;
+}
+
+.morebox .morebutton{
+        width: 110px;
+        height: 30px;
+        background: white;
+        border: 2px solid dodgerblue;
+        border-radius: 25px;
+        position: absolute;
+        top: 30px;
+        left: 280px;
+        text-align: center;
+}
+
+.morebutton a{
+        text-decoration: none;
+        font-size: 14px;
+        color: dodgerblue;
+        line-height: 30px;
+        font-weight: bolder;
+}
+
+.morebutton a:hover{
+        font-size: 16px;
+}
+
+.ad{
+        width: 950px;
+        height: 80px;
+        margin: 0 auto;
+        padding-top: 5px;
+        position: relative;
+}
+
+.ad li .perad{
+        width: 120px;
+        height: 80px;
+}
+
+.ad li .perad{
+        float: left;
+        margin-right: 16px;
+        border: 1px solid gray;
+}
+
+.ad li .perad:last-child{
+        margin-right: 0;
+}
+
+.perad img{
+        display: block;
+        width: 100%;
+        height: 60px;
+}
+
+.perad p{
+        width: 100%;
+        height: 20px;
+        background: white;
+        text-align: center;
+}
+
+.perad p a{
+        text-decoration: none;
+        font-size: 14px;
+        color: black;
+        line-height: 20px;
+}
+
+.perad p a:hover{
+        color: blue;
+}
+
+.gg{
+        display: block;
+        text-align: center;
+        width: 30px;
+        height: 15px;
+        background: rgba(0,0,0,0.6);
+        color: white;
+        position: absolute;
+        font-size: 12px;
+        right: -10px;
+        bottom: -5px;
+        line-height: 15px;
+}
+
+.show{
+        width: 1000px;
+        height: 725px;
+        margin: 0 auto;
+        margin-top: 10px;
+}
+
+.xsmt{
+        height: 40px;
+        border-bottom: 5px solid gray;
+        padding-top: 5px;
+        padding-left: 5px;
+}
+
+.xsmt .xsmtimg{
+        width: 120px;
+        height: 30px;
+        background: url("../img/zhly/css_sprites.png") no-repeat top -252px right -20px;
+}
+
+.show .picwall{
+        width: 1000px;
+        height: 640px;
+        margin-top: 10px;
+}
+
+.picwall .leftwall{
+        width: 660px;
+        height: 100%;
+        float: left;
+}
+
+.picwall .rightwall{
+        width: 330px;
+        height: 100%;
+        float: right;
+}
+
+.leftwall img,.rightwall img{
+        display: block;
+}
+
+.leftwall img:first-child{
+        width: 100%;
+        height: 360px;
+        margin-bottom: 10px;
+}
+
+.leftwall img:nth-child(2){
+        float: left;
+}
+
+.leftwall img:last-child{
+        float: right;
+}
+
+.rightwall img{
+        margin-bottom: 10px;
+}
+
+.links{
+        width: 1000px;
+        height: 170px;
+        margin: 0 auto;
+}
+
+.linksbar{
+        width: 100%;
+        height: 40px;
+}
+
+.linksbar a{
+        text-decoration: none;
+        color: dodgerblue;
+        display: block;
+        float: left;
+        text-align: center;
+        width: 90px;
+        height: 40px;
+}
+
+.linksbar a:hover{
+        font-weight: bolder;
+}
+
+.linksbar a:first-child{
+        background: url("../img/zhly/css_sprites.png") no-repeat left -30px top -290px;
+        line-height: 55px;
+}
+
+.linksbar a:nth-child(2){
+        border-bottom: 2px solid deepskyblue;
+        line-height: 53px;
+}
+
+.linksbar div{
+        height: 40px;
+        width: 820px;
+        float: left;
+        border-bottom: 2px solid deepskyblue;
+}
+
+.links .linksbox{
+        width: 990px;
+        height: 110px;
+        margin-top: 15px;
+        padding-left: 10px;
+}
+
+.linksbox li{
+        float: left;
+        width: 20%;
+        height: 15%;
+}
+
+.linksbox li a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+}
+
+.linksbox li a:hover{
+        font-weight: bolder;
+        color: blue;
+}
+
+.footer{
+        width: 100%;
+        height: 200px;
+        background: whitesmoke;
+}
+
+.footer .fourpics{
+        width: 400px;
+        height: 70px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+}
+
+.fourpics div{
+        float: left;
+        margin-right: 70px;
+}
+
+.fourpics div:last-child{
+        margin-right: 0;
+}
+
+.weibo{
+        width: 50px;
+        height: 100%;
+        background: url("../img/zhly/css_sprites.png") no-repeat left -120px top -285px;
+        position: relative;
+}
+
+.weibo a{
+        text-decoration: none;
+        font-size: 12px;
+        color: gray;
+        display: block;
+        position: absolute;
+        bottom: -10px;
+        left: 13px;
+}
+
+.email{
+        width: 45px;
+        height: 100%;
+        background: url("../img/zhly/css_sprites.png") no-repeat left -170px top -285px;
+        position: relative;
+}
+
+.email a{
+        width: 50px;
+        text-decoration: none;
+        font-size: 12px;
+        color: gray;
+        display: block;
+        position: absolute;
+        left: -3px;
+        bottom: -10px;
+}
+
+.wap{
+        width: 25px;
+        height: 100%;
+        background: url("../img/zhly/css_sprites.png") no-repeat right top -285px;
+        position: relative;
+}
+
+.wap a{
+        text-decoration: none;
+        color: gray;
+        display: block;
+        font-size: 12px;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+}
+
+.erweima{
+        width: 70px;
+        height: 70px;
+        background: url("../img/zhly/qrcode.png") no-repeat center center;
+}
+
+.footer p{
+        text-align: center;
+        font-size: 12px;
+        color: gray;
+        margin-bottom: 5px;
+}
+
+.footer p a{
+        text-decoration: none;
+        color: gray;
+        display: block;
+        float: left;
+        border-right: 1px solid gray;
+        padding: 0 10px;
+}
+
+.footer p a:last-child{
+        border-right: none;
+}
+
+.info{
+        padding-left: 300px;
+}
