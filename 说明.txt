@@ -29,7 +29,7 @@ http://api.tianapi.com/travel/?key=d7730e5c2424f8f9253f5ea5bd544224&num=10
 今日推荐：
 标题 ：高度96px   大小 38px
 内宽度 1160x800px
-背景颜色：白色
+背景颜色：白色40
 间隙20px
 小模块：280x300
 
