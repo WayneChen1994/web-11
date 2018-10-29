@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery中的get请求练习</title>
+    <script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: gray;
+            width: 1000px;
+        }
+        #btn{
+            width: 200px;
+            height: 50px;
+            background: deepskyblue;
+            color: white;
+            text-align: center;
+            padding: 5px 8px;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+        .picbox{
+            width: 250px;
+            height: 150px;
+            position: relative;
+            float: left;
+            margin: 10px;
+        }
+        .picbox img{
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        .picbox p{
+            width: 100%;
+            height: 35px;
+            background: rgba(0,0,0,0.5);
+            font-size: 12px;
+            color: white;
+            position: absolute;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn">一键获取图片</button>
+    
+    <script type="text/javascript">
+        $(function () {
+            $("#btn").on("click", getPics);
+            
+            function getPics() {
+                $("#btn").css("display", "none");
+                var url = "http://api.tianapi.com/travel/?key=d7730e5c2424f8f9253f5ea5bd544224&num=39";
+                $.get(url, function (data, status) {
+                    var lists = data.newslist;
+                    for (var i in lists){
+                        var $p = $('<p>' + lists[i].title + '</p>');
+                        var $img = $('<img src="' + lists[i].picUrl + '" />');
+                        var $div = $('<div class="picbox"></div>');
+                        $div.append($img);
+                        $div.append($p);
+                        $("body").append($div);
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

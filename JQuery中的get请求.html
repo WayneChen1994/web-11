@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="js/jquery-3.3.1.js" charset="utf-8"></script>
+    <title>JQuery中的get请求</title>
+</head>
+<body>
+    $.get()
+    $.post()
+    
+    语法：
+    $.get(url, [dataObject, callback, type])
+    $.post(url, [dataObject, callback, type])
+    
+    获取大量数据，并且请求数据使用的参数不重要的时候使用get【速度快】，提交数据到服务器，比如注册、登陆，要求数据保密，或是数据比较大的情况下，我们就使用post
+    
+-----------------------------------------------------------
+    
+    <button id="btn">点击请求</button>
+
+    <script type="text/javascript">
+        var url = "http://api.tianapi.com/txapi/xiehou/?key=d7730e5c2424f8f9253f5ea5bd544224"
+        $("#btn").on("click",function () {
+           $.get(url, {"num": 20},function (data, status) {
+               alert(data.msg);
+               var lists = data.newslist;
+               for (var i in lists){
+                   console.log(lists[i].quest + " --> " + lists[i].result);
+               }
+           });
+        });
+    </script>
+</body>
+</html>

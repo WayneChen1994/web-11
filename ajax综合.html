@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ajax综合</title>
+    <script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <button onclick="getData()">获取数据</button>
+
+    <script type="text/javascript">
+        function getData(){
+            $.ajax({
+                // 请求地址
+                url: "http://api.tianapi.com/travel/?key=d7730e5c2424f8f9253f5ea5bd544224",
+                type: "get", // 请求方式，get/post
+                data: {"num": 10}, // 请求参数
+                dataType: "json", // 返回的数据类型text，xml，json
+                timeout: 3000, //请求超时时间
+                async: true, // 是否异步，默认为true
+                success: function (data) {
+                    alert(data);
+                },
+                error: function (xhr) {
+                    alert(xhr);
+                }
+            });
+        }
+    </script>
+</body>
+</html>
