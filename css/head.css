@@ -1,0 +1,61 @@
+.head{
+    width: 100%;
+    height: 57px;
+    margin-top: 3px;
+    background: skyblue;
+}
+
+.header{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header .logo{
+    float: left;
+    margin-top: -3px;
+    height: 59px;
+    border-bottom: 1px solid #efefef;
+}
+
+.header .nav{
+    float: left;
+    height: 100%;
+}
+
+.nav li{
+    float: left;
+    height: 100%;
+    padding: 0 10px 0 20px;
+    line-height: 58px;
+}
+
+.nav li a{
+    color: white;
+}
+
+.nav li:hover{
+    background: cadetblue;
+}
+
+.header form{
+    float: right;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.header form input[type="text"]{
+    width: 250px;
+    height: 28px;
+    float: left;
+    border: none;
+    padding-left: 10px;
+}
+
+.header form input[type="button"]{
+    width: 30px;
+    height: 28px;
+    float: right;
+    border: none;
+    background: url("../img/zhly/css_sprites.png") no-repeat -10px top;
+}
